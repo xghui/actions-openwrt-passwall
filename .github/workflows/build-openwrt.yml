@@ -11,7 +11,7 @@ name: Build OpenWrt
 on:
   release:
     types: [published]
-#  push:
+#   push:
 #    branches:
       - dev-lean-lede
     paths:
