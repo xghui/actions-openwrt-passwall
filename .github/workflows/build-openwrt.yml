@@ -15,16 +15,16 @@ on:
 #    branches:
       - dev-lean-lede
     paths:
-      - 'X64.config'
+      - '.config'
 #  schedule:
 #    - cron: 0 8 * * 5
-#  watch:
-#   types: [started]
+  watch:
+  types: [started]
 
 env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: dev-lean-lede
-  CONFIG_FILE: X64.config
+  CONFIG_FILE: .config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: true
